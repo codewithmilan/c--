@@ -22,7 +22,7 @@ int main()
         if (arr[mid] == target)
         {
             cout << "Element is found at index :" << mid;
-            return mid;
+            // return mid;
         }
         else if (arr[mid] < target)
         {
