@@ -9,7 +9,7 @@ int main()
         for (int j = 0; j < n; j++)
         {
             if (i == 0 || (i + j == n - 1) || i == n - 1)
-                cout << "*";
+                cout << "3*";
             else
                 cout << " ";
         }

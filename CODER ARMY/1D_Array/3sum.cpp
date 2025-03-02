@@ -19,24 +19,7 @@ int threesum1(vector<int> v, int target)
 }
 int threesum2(vector<int> v, int target)
 {
-    int n = v.size();
-    for (int i = 0; i < n; i++)
-    {
-        int key = target - v[i];
-        int start = i + 1, end = n - 1;
-        while (start <= end)
-        {
-            if (v[start] + v[end] == key)
-            {
-                return 1;
-            }
-            else if (v[start] + v[end] < key)
-                start++;
-            else
-                end--;
-        }
-    }
-    return -1;
+ 
 }
 int threesum3(vector<int> v, int target)
 {

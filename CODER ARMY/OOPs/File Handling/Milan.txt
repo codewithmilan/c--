@@ -1,0 +1,9 @@
+Hi, this file is created trough file handling in c++
+New data is added in same file through ios::app
+
+Unsorted data :5 6 3 2 1 
+Sorted data :1 2 3 5 6 
+// Below data is apeneded and I save the data in existing file from (sort.cpp)file.
+ 
+Unsorted data :8 7 6 5 4 
+Sorted data :4 5 6 7 8 
